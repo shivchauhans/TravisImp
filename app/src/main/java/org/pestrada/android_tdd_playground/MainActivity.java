@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void changeText(View view) {
+
         TextView textView = (TextView) findViewById(R.id.textView1);
         textView.setText("new text");
     }
